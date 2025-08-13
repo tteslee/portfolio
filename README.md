@@ -18,15 +18,6 @@ A strategic thinking and management platform that enables portfolio managers, pr
 - **Timeline Progress**: Visual timeline with milestone tracking
 - **Status Management**: Real-time status updates for all portfolio elements
 
-## Design Philosophy
-
-The Portfolio Tool features a **modern, senior-friendly interface** inspired by 20th century modern graphic design and the New York City subway system. The design emphasizes:
-
-- **Clarity**: High contrast, readable typography
-- **Simplicity**: Clean layouts with minimal visual noise
-- **Accessibility**: Large touch targets and clear navigation
-- **Efficiency**: Information-dense displays for experienced users
-
 ## Technology Stack
 
 ### Frontend
