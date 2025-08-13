@@ -105,7 +105,11 @@ export function getAssetTypeColor(type: string): string {
   }
 }
 
-export function calculateProgress(milestones: any[]): number {
+interface Milestone {
+  status: string
+}
+
+export function calculateProgress(milestones: Milestone[]): number {
   if (!milestones || milestones.length === 0) return 0
   
   const completed = milestones.filter(m => m.status === 'completed').length
@@ -116,7 +120,7 @@ export function generateId(): string {
   return Math.random().toString(36).substr(2, 9)
 }
 
-export function debounce<T extends (...args: any[]) => any>(
+export function debounce<T extends (...args: unknown[]) => unknown>(
   func: T,
   wait: number
 ): (...args: Parameters<T>) => void {
@@ -132,7 +136,11 @@ export function truncateText(text: string, maxLength: number): string {
   return text.substring(0, maxLength) + '...'
 }
 
-export function calculateImpactScore(impacts: any[]): number {
+interface Impact {
+  magnitude: number
+}
+
+export function calculateImpactScore(impacts: Impact[]): number {
   if (!impacts || impacts.length === 0) return 0
   
   const totalMagnitude = impacts.reduce((sum, impact) => sum + impact.magnitude, 0)

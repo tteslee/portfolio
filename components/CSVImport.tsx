@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { Upload, FileText, AlertCircle, CheckCircle, X, Download } from 'lucide-react'
+import { Upload, AlertCircle, CheckCircle, X, Download } from 'lucide-react'
 import { Action, Actor, Asset, Connection, ActionStatus, ActorType, AssetType } from '@/types'
 import { generateId } from '@/lib/utils'
 
@@ -415,7 +415,7 @@ export default function CSVImport({ onDataImported }: CSVImportProps) {
             </p>
             <div className="bg-secondary-50 p-3 rounded text-xs font-mono">
               name,description,status,sector,impactArea,budget,startDate,endDate,targetOutcomes<br/>
-              "Urban Green Infrastructure","Implement green spaces",in_progress,Environmental,Climate Resilience,2500000,2024-01-15,2026-12-31,"Improved air quality;Enhanced biodiversity"
+              &quot;Urban Green Infrastructure&quot;,&quot;Implement green spaces&quot;,in_progress,Environmental,Climate Resilience,2500000,2024-01-15,2026-12-31,&quot;Improved air quality;Enhanced biodiversity&quot;
             </div>
           </div>
           
@@ -426,7 +426,7 @@ export default function CSVImport({ onDataImported }: CSVImportProps) {
             </p>
             <div className="bg-secondary-50 p-3 rounded text-xs font-mono">
               name,type,sector,role,capacity,influence,email<br/>
-              "City Planning Department",government,Government,Lead Coordinator,8,9,planning@city.gov
+              &quot;City Planning Department&quot;,government,Government,Lead Coordinator,8,9,planning@city.gov
             </div>
           </div>
           
@@ -437,7 +437,7 @@ export default function CSVImport({ onDataImported }: CSVImportProps) {
             </p>
             <div className="bg-secondary-50 p-3 rounded text-xs font-mono">
               name,type,description,value,availability,owner<br/>
-              "Federal Infrastructure Grant",funding,"Federal funding for projects",15000000,available,"Federal Government"
+              &quot;Federal Infrastructure Grant&quot;,funding,&quot;Federal funding for projects&quot;,15000000,available,&quot;Federal Government&quot;
             </div>
           </div>
           
@@ -448,7 +448,7 @@ export default function CSVImport({ onDataImported }: CSVImportProps) {
             </p>
             <div className="bg-secondary-50 p-3 rounded text-xs font-mono">
               sourceId,sourceType,targetId,targetType,relationshipType,strength,description<br/>
-              "action-1",action,"actor-1",actor,dependency,9,"City Planning leads the project"
+              &quot;action-1&quot;,action,&quot;actor-1&quot;,actor,dependency,9,&quot;City Planning leads the project&quot;
             </div>
           </div>
         </div>

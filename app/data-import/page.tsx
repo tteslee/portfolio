@@ -9,7 +9,7 @@ import { usePortfolio } from '@/contexts/PortfolioContext'
 import { CheckCircle, ArrowRight } from 'lucide-react'
 
 export default function DataImportPage() {
-  const { portfolio, addImportedData, clearImportedData } = usePortfolio()
+  const { addImportedData, clearImportedData } = usePortfolio()
   const [importedData, setImportedData] = useState<{
     actions: Action[]
     actors: Actor[]
@@ -133,7 +133,7 @@ export default function DataImportPage() {
               <div className="mt-4 p-4 bg-success-50 rounded-lg border border-success-200">
                 <p className="text-sm text-success-800">
                   ✅ Your data has been successfully imported and is now available in the dashboard. 
-                  Click "View Dashboard" to see your updated portfolio metrics and visualizations.
+                  Click &quot;View Dashboard&quot; to see your updated portfolio metrics and visualizations.
                 </p>
               </div>
             </div>

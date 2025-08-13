@@ -1,7 +1,7 @@
 'use client'
 
 import { Portfolio } from '@/types'
-import { formatDate, calculateProgress } from '@/lib/utils'
+import { formatDate } from '@/lib/utils'
 import { Calendar, Clock, CheckCircle, AlertCircle } from 'lucide-react'
 
 interface TimelineProgressProps {
@@ -104,7 +104,7 @@ export default function TimelineProgress({ portfolio }: TimelineProgressProps) {
 
           {/* Milestone markers */}
           <div className="relative">
-            {sortedMilestones.map((milestone, index) => (
+            {sortedMilestones.map((milestone) => (
               <div
                 key={milestone.id}
                 className="absolute top-0 transform -translate-x-1/2"

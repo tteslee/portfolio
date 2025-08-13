@@ -5,12 +5,7 @@ import { formatCurrency } from '@/lib/utils'
 import { 
   BarChart3, 
   Users, 
-  Building2, 
-  TrendingUp, 
-  Clock, 
-  CheckCircle,
-  DollarSign,
-  GitBranch
+  Building2
 } from 'lucide-react'
 
 interface DashboardMetricsProps {
