@@ -1,0 +1,44 @@
+{
+  "name": "portfolio-tool",
+  "version": "1.0.0",
+  "description": "Strategic thinking and management platform for portfolio managers",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "tailwindcss": "^3.3.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "@tanstack/react-query": "^5.0.0",
+    "@tanstack/react-table": "^8.0.0",
+    "echarts": "^5.4.0",
+    "echarts-for-react": "^3.0.2",
+    "cytoscape": "^3.28.0",
+    "cytoscape-react": "^1.0.0",
+    "next-auth": "^4.24.0",
+    "xlsx": "^0.18.0",
+    "@react-pdf/renderer": "^3.1.0",
+    "react-pdf": "^7.0.0",
+    "lucide-react": "^0.292.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "tailwind-merge": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^14.0.0",
+    "@types/cytoscape": "^3.19.0"
+  }
+}

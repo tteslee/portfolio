@@ -1,0 +1,16 @@
+name,type,sector,role,capacity,influence,email,phone,website
+"City Planning Department",government,Government,Lead Coordinator,8,9,planning@city.gov,+1-555-0123,https://city.gov/planning
+"GreenTech Solutions Inc.",private_sector,Technology,Technology Partner,7,6,contact@greentech.com,+1-555-0456,https://greentech.com
+"Community Housing Coalition",civil_society,Housing,Advocacy Partner,6,7,info@housingcoalition.org,+1-555-0789,https://housingcoalition.org
+"Urban Research Institute",academic,Research,Research Partner,8,5,research@urbaninstitute.edu,+1-555-0321,https://urbaninstitute.edu
+"Local Business Association",private_sector,Business,Stakeholder,5,8,info@localbusiness.org,+1-555-0654,https://localbusiness.org
+"Environmental Justice Network",civil_society,Environmental,Advocacy Partner,7,6,contact@ejnetwork.org,+1-555-0987,https://ejnetwork.org
+"Public Health Department",government,Healthcare,Health Coordinator,9,8,health@city.gov,+1-555-0111,https://city.gov/health
+"Tech Innovation Hub",private_sector,Technology,Innovation Partner,8,7,hello@techhub.org,+1-555-0222,https://techhub.org
+"Community Foundation",civil_society,Philanthropy,Funding Partner,7,8,grants@communityfoundation.org,+1-555-0333,https://communityfoundation.org
+"Transportation Authority",government,Transportation,Transport Coordinator,8,9,info@transitauth.gov,+1-555-0444,https://transitauth.gov
+"Arts Council",civil_society,Culture,Cultural Partner,6,7,info@artscouncil.org,+1-555-0555,https://artscouncil.org
+"Emergency Services",government,Public Safety,Emergency Coordinator,9,9,emergency@city.gov,+1-555-0666,https://city.gov/emergency
+"University Research Center",academic,Research,Academic Partner,8,6,research@university.edu,+1-555-0777,https://university.edu/research
+"Local Bank Consortium",private_sector,Finance,Financial Partner,7,8,partnerships@localbank.com,+1-555-0888,https://localbank.com
+"Youth Development Network",civil_society,Education,Youth Partner,6,6,youth@development.org,+1-555-0999,https://development.org

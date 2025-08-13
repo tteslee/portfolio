@@ -1,0 +1,39 @@
+# Portfolio Tool - Commit Message Template
+
+# Type of change:
+#   feat     (new feature for the user, not a new feature for build script)
+#   fix      (bug fix for the user, not a fix to a build script)
+#   docs     (changes to the documentation)
+#   style    (formatting, missing semi colons, etc; no production code change)
+#   refactor (refactoring production code, eg. renaming a variable)
+#   test     (adding missing tests, refactoring tests; no production code change)
+#   chore    (updating grunt tasks etc; no production code change)
+#   perf     (performance improvements)
+#   ci       (changes to CI configuration files and scripts)
+#   build    (changes that affect the build system or external dependencies)
+
+# Scope (optional):
+#   dashboard, import, network, auth, api, ui, etc.
+
+# Subject (required):
+#   Brief description of the change in present tense
+
+# Body (optional):
+#   More detailed explanatory text, if necessary
+
+# Footer (optional):
+#   Breaking changes, references to issues, etc.
+
+# Examples:
+# feat(dashboard): add real-time portfolio metrics
+# fix(import): resolve CSV parsing error for large files
+# docs(readme): update installation instructions
+# style(ui): improve button spacing and alignment
+# refactor(network): optimize Cytoscape.js rendering
+# test(api): add unit tests for portfolio validation
+# chore(deps): update Next.js to version 14.2.31
+# perf(dashboard): optimize network graph rendering
+# ci(github): add automated testing workflow
+# build(deps): update TypeScript to version 5.0.0
+
+# Your commit message:

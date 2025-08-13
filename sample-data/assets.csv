@@ -1,0 +1,17 @@
+name,type,description,value,availability,owner,location
+"Federal Infrastructure Grant",funding,"Federal funding for infrastructure development projects",15000000,available,"Federal Government",
+"City Data Platform",data,"Comprehensive city data platform with real-time analytics",2000000,available,"City Government","City Hall"
+"Community Engagement Network",network,"Established network of community organizations and leaders",500000,available,"Community Coalition",
+"Green Technology Expertise",knowledge,"Specialized knowledge in sustainable urban development",300000,available,"GreenTech Solutions",
+"Public Transportation Infrastructure",infrastructure,"Existing public transportation network and facilities",25000000,limited,"City Government","Citywide"
+"Renewable Energy Systems",technology,"Solar and wind energy systems for municipal buildings",8500000,available,"City Government","Municipal Buildings"
+"Healthcare Facilities Network",infrastructure,"Network of healthcare facilities and clinics",18000000,available,"Healthcare System","Citywide"
+"Digital Infrastructure",technology,"High-speed internet and digital connectivity infrastructure",12000000,available,"Telecom Provider","Citywide"
+"Cultural Venues",infrastructure,"Performance spaces, galleries, and cultural facilities",8000000,available,"Arts Council","Cultural District"
+"Emergency Response Equipment",technology,"Emergency vehicles, communication systems, and equipment",15000000,available,"Emergency Services","Emergency Centers"
+"Research Laboratories",infrastructure,"Research facilities and laboratory equipment",5000000,available,"University Research Center","University Campus"
+"Financial Resources",funding,"Pooled financial resources from multiple sources",25000000,available,"Local Bank Consortium",
+"Youth Development Centers",infrastructure,"Youth centers and educational facilities",3000000,available,"Youth Development Network","Multiple Locations"
+"Environmental Monitoring Systems",technology,"Air quality, water quality, and environmental monitoring equipment",4000000,available,"Environmental Justice Network","Citywide"
+"Public Safety Communications",technology,"Emergency communications and coordination systems",8000000,available,"Emergency Services","Emergency Centers"
+"Community Health Data",data,"Comprehensive health data and analytics platform",1500000,available,"Public Health Department","Health Department"
